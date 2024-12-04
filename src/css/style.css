@@ -1,0 +1,57 @@
+html {
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    min-height: 100vh;
+    font-weight: 800;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 335px;
+    width: 540px;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+    gap: 30px;
+}
+
+.container .title {
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: hsl(150, 100%, 66%);
+
+}
+
+.container .conselho {
+    font-size: 27px;
+}
+
+.container picture img {
+    width: 100%;
+
+}
+
+.container picture .btn-dice {
+    width: 60px;
+    height: 60px;
+    border: 20px solid hsl(150, 100%, 66%);
+    border-radius: 50%;
+    transform: translateY(30%);
+}
+
+.container picture .btn-dice:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}

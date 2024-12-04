@@ -1,0 +1,17 @@
+@media (max-width: 475px) {
+    .container {
+        width: 400px;
+        height: 370px;
+    }
+    
+    .container .divisor-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 360px;
+        height: 400px;
+    }
+}
