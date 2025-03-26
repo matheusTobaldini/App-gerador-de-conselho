@@ -30,7 +30,7 @@ body {
     font-size: 14px;
     letter-spacing: 3px;
     color: hsl(150, 100%, 66%);
-
+    text-transform: uppercase;
 }
 
 .container .conselho {
